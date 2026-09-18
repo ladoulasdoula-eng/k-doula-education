@@ -1,0 +1,481 @@
+.student-orientation {
+  min-height: 100vh;
+  padding-bottom: 92px;
+  background: linear-gradient(180deg, #fffdf8 0%, #f5f1e9 100%);
+  color: #2d3128;
+}
+
+.student-hero {
+  padding: 34px 18px 18px;
+}
+
+.student-hero-inner,
+.student-content,
+.student-footer {
+  width: min(100%, 680px);
+  margin: 0 auto;
+}
+
+.student-hero-inner {
+  padding: 30px 24px;
+  border: 1px solid rgba(74, 95, 70, 0.18);
+  border-radius: 8px;
+  background: linear-gradient(135deg, #fffefa 0%, #edf3e9 100%);
+  box-shadow: 0 18px 46px rgba(61, 71, 55, 0.1);
+}
+
+.student-kicker,
+.certificate-kicker,
+.student-label {
+  margin: 0;
+  color: #65745c;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.student-hero h1 {
+  margin: 12px 0 0;
+  color: #243326;
+  font-size: 2.1rem;
+  line-height: 1.24;
+  word-break: keep-all;
+}
+
+.student-subtitle {
+  display: inline-flex;
+  margin: 20px 0 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #dfe9dc;
+  color: #314934;
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.student-welcome {
+  margin-top: 22px;
+}
+
+.student-orientation p,
+.student-orientation address,
+.student-orientation li,
+.student-orientation dd {
+  color: #4d5148;
+  font-size: 1rem;
+  line-height: 1.78;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+.student-orientation p {
+  margin: 16px 0 0;
+}
+
+.student-orientation address {
+  margin-top: 10px;
+  font-style: normal;
+}
+
+.student-content {
+  display: grid;
+  gap: 16px;
+  padding: 0 18px 28px;
+}
+
+.student-card,
+.certificate-card {
+  padding: 24px;
+  border: 1px solid rgba(101, 116, 92, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 254, 250, 0.94);
+  box-shadow: 0 12px 30px rgba(61, 71, 55, 0.07);
+}
+
+.student-card h2,
+.certificate-card h2 {
+  margin: 0;
+  color: #263629;
+  font-size: 1.32rem;
+  line-height: 1.42;
+}
+
+.certificate-kicker + h2 {
+  margin-top: 8px;
+}
+
+.student-info-grid,
+.student-teachers,
+.certificate-info,
+.student-contact-list {
+  display: grid;
+  gap: 10px;
+  margin: 18px 0 0;
+}
+
+.student-info-grid div,
+.student-teachers div,
+.certificate-info div,
+.student-contact-list div {
+  min-width: 0;
+  padding: 14px;
+  border-radius: 8px;
+  background: #f4f1e8;
+}
+
+.student-orientation dt {
+  color: #68735e;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.student-orientation dd {
+  margin: 5px 0 0;
+  color: #2f352d;
+  font-weight: 700;
+}
+
+.student-highlight-box {
+  border: 1px solid #8ca17f;
+  background: #e8f0e4 !important;
+}
+
+.student-highlight-box strong,
+.student-price,
+.student-time-pair span {
+  color: #243f2b;
+  font-size: 1.8rem;
+  line-height: 1.15;
+}
+
+.student-checklist {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.student-checklist li {
+  position: relative;
+  padding: 13px 14px 13px 44px;
+  border-radius: 8px;
+  background: #f3f6ef;
+  font-weight: 700;
+}
+
+.student-checklist li::before {
+  position: absolute;
+  top: 16px;
+  left: 17px;
+  width: 8px;
+  height: 14px;
+  border-right: 2px solid #5f775a;
+  border-bottom: 2px solid #5f775a;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.student-note {
+  color: #6f6a5f !important;
+  font-size: 0.9rem !important;
+}
+
+.student-price {
+  margin-top: 18px !important;
+  font-weight: 900;
+}
+
+.student-account,
+.student-muted-block {
+  margin-top: 18px;
+  padding: 18px;
+  border-radius: 8px;
+  background: #f4f1e8;
+}
+
+.student-account strong {
+  color: #1f3326;
+  font-size: 1.25rem;
+}
+
+.student-account button,
+.student-action-button,
+.student-contact-actions a,
+.student-contact-actions button {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  padding: 12px 16px;
+  border: 0;
+  border-radius: 8px;
+  background: #4f684f;
+  color: #fffefa;
+  font: inherit;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.student-account button:focus-visible,
+.student-action-button:focus-visible,
+.student-contact-actions a:focus-visible,
+.student-contact-actions button:focus-visible,
+.student-quick-actions a:focus-visible {
+  outline: 3px solid #c69058;
+  outline-offset: 3px;
+}
+
+.student-important {
+  color: #263629 !important;
+  font-weight: 800;
+}
+
+.student-evaluation {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.student-evaluation article {
+  padding: 18px;
+  border-radius: 8px;
+  background: #f4f1e8;
+}
+
+.student-evaluation span {
+  color: #65745c;
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.student-evaluation h3 {
+  margin: 6px 0 0;
+  color: #263629;
+  font-size: 1.05rem;
+}
+
+.certificate-card {
+  border-color: rgba(99, 79, 47, 0.32);
+  background: linear-gradient(135deg, rgba(255, 254, 250, 0.98), rgba(238, 234, 221, 0.98));
+}
+
+.certificate-info div {
+  border-bottom: 1px solid rgba(99, 79, 47, 0.14);
+  border-radius: 0;
+  background: transparent;
+  padding: 10px 0;
+}
+
+.certificate-fee {
+  display: grid;
+  gap: 4px;
+  margin-top: 18px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #e4eadf;
+}
+
+.certificate-fee span {
+  color: #65745c;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.certificate-fee strong {
+  color: #253d2b;
+  font-size: 1.28rem;
+}
+
+.certificate-legal {
+  margin-top: 18px;
+  padding: 16px;
+  border-left: 3px solid #65745c;
+  background: #f8f5ed;
+}
+
+.student-place-name {
+  color: #263629 !important;
+  font-weight: 900;
+}
+
+.student-search-terms {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.student-search-terms span {
+  display: block;
+  padding: 11px 13px;
+  border-radius: 8px;
+  background: #eef4ea;
+  color: #263629;
+  font-weight: 800;
+}
+
+.student-parking-button {
+  width: 100%;
+  background: #39583c;
+}
+
+.student-time-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.student-time-pair div {
+  padding: 18px 12px;
+  border-radius: 8px;
+  background: #e8f0e4;
+  text-align: center;
+}
+
+.student-time-pair span,
+.student-time-pair strong {
+  display: block;
+}
+
+.student-time-pair strong {
+  margin-top: 6px;
+  color: #4d5148;
+}
+
+.student-flow,
+.student-quote {
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: 8px;
+  background: #e4eadf;
+  color: #243f2b !important;
+  font-size: 1.15rem !important;
+  font-weight: 900;
+  text-align: center;
+}
+
+.student-philosophy blockquote {
+  margin: 20px 0 0;
+  padding: 18px;
+  border-left: 3px solid #65745c;
+  background: #f4f1e8;
+}
+
+.student-philosophy blockquote p {
+  margin: 0;
+  color: #243f2b;
+  font-weight: 900;
+}
+
+.student-philosophy cite {
+  display: block;
+  margin-top: 6px;
+  color: #5f615a;
+  font-style: normal;
+}
+
+.student-contact-list a {
+  color: #243f2b;
+}
+
+.student-contact-actions {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.student-contact-actions a,
+.student-contact-actions button {
+  width: 100%;
+  margin-top: 0;
+}
+
+.student-contact-actions button {
+  background: #eef4ea;
+  color: #314934;
+}
+
+.student-footer {
+  padding: 8px 18px 32px;
+  text-align: center;
+}
+
+.student-footer p {
+  margin-top: 8px;
+  color: #68735e;
+  font-size: 0.92rem;
+}
+
+.student-quick-actions {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  left: 12px;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  width: min(calc(100% - 24px), 520px);
+  margin: 0 auto;
+  padding: 8px;
+  border: 1px solid rgba(74, 95, 70, 0.18);
+  border-radius: 8px;
+  background: rgba(255, 254, 250, 0.94);
+  box-shadow: 0 12px 32px rgba(41, 49, 39, 0.18);
+  backdrop-filter: blur(10px);
+}
+
+.student-quick-actions a {
+  display: flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #eef4ea;
+  color: #314934;
+  font-size: 0.9rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.student-toast {
+  position: fixed;
+  right: 18px;
+  bottom: 86px;
+  left: 18px;
+  z-index: 20;
+  width: fit-content;
+  max-width: calc(100% - 36px);
+  margin: 0 auto;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #243326;
+  color: #fffefa;
+  font-weight: 800;
+  box-shadow: 0 12px 28px rgba(36, 51, 38, 0.26);
+}
+
+@media (min-width: 720px) {
+  .student-hero {
+    padding-top: 54px;
+  }
+
+  .student-hero-inner,
+  .student-card,
+  .certificate-card {
+    padding: 34px;
+  }
+
+  .student-hero h1 {
+    font-size: 2.65rem;
+  }
+
+  .student-info-grid,
+  .student-evaluation,
+  .student-contact-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
